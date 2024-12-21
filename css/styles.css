@@ -1,13 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
 }
 
 
 main {
-    background-color: red;
-    margin-top: 20px;
+    background-color: white;
+    margin-top: 200px;
+    margin-bottom: 200px;
     max-width: 1000px;
     width: 100%;
     margin-left: auto;
