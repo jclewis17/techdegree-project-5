@@ -3,7 +3,7 @@ const galleryItems = document.querySelectorAll('.gallery a');
 
 searchInput.addEventListener('keyup', function(e) {
   const searchValue = e.target.value.toLowerCase();
-  //e stands for element that triggered event, ie input  
+  //e stands for triggered event, ie input  
 
   galleryItems.forEach(item => {
     const caption = item.getAttribute('data-caption');
